@@ -1,0 +1,88 @@
+.box1{
+    padding: 250px;
+    text-align: center;
+    text-wrap: balance;
+    background-image: linear-gradient(#08080880, #08080880), linear-gradient(#0000 65%, #080808), linear-gradient(#080808, #0000 25%),url("/public/img/mainBoxBg.png");
+    background-position: 0 0, 0 0, 0 0, 50% 55%;
+}
+
+.box2{
+    padding-top: 150px;
+    text-align: center;
+    text-wrap: balance;
+    background-color: #080808;
+}
+
+.box2 .explainPropose{
+    width: 30%;
+}
+
+
+
+
+.box3{
+    text-align: center;
+    text-wrap: balance;
+    background-color: #080808;
+
+}
+
+.mainTextH2{
+    font-size: 70px;
+}
+
+.buttonStartTesting{
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding: 25px;
+    font-size: 20px;
+    background-color: #146ef5;
+}
+
+.tool{
+    width: 45%;
+    height: 250px;
+    background-color: white;
+}
+
+.commentContentBox{
+    width: 100%;
+    height: 100%;
+    background-color: #080808;
+    padding: 4rem;
+}
+
+.commentContentBox .commentContent {
+    height: 340px;
+    border: grey 1px solid;
+}
+
+.commentContentBox .commentContent .commentText{
+    letter-spacing: -.01em;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.commentContentBox .commentContent .moreComment{
+    font-size: 1.2rem;
+}
+
+.gridContent{
+    grid-column-gap: 64px;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.userImageBox .userImage{
+    height: 70px;
+    background-color: white;
+    width: 70px;
+    border-radius: 5rem;
+}
+
+.CommentLogo{
+    width: 55%;
+    height: 200px;
+}
+
